@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(178, 72, 250, 0.6); position: absolute; height: 173px; width: 177px; top: 0; left: auto; right: 0;">
+        <ui:Button text="Host" name="HostButton"/>
+        <ui:Button text="Server" name="ServerButton"/>
+        <ui:Button text="Client" name="ClientButton"/>
+        <ui:Button text="Disconnect&#10;" name="DisconnectButton"/>
+        <ui:TextField label="Adress" placeholder-text="filler text" max-length="-1" name="IpTextField" focusable="true" style="width: 183px; height: 36px; aspect-ratio: auto; font-size: 15px; justify-content: flex-start; padding-top: -14px; padding-right: -14px; padding-bottom: -14px; padding-left: -14px; margin-top: 0; margin-right: -3px; margin-bottom: -3px; border-right-width: -18px;"/>
+    </ui:VisualElement>
+</ui:UXML>
